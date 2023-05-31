@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
         if (r4.isChecked()==true) {
             String error= "ingrese un numero mayor de 0";
             if (nro2>0){
-                int multiplicar=nro1/nro2;
-                String resu=String.valueOf(multiplicar);
+                int dividir=nro1/nro2;
+                String resu=String.valueOf(dividir);
                 tv1.setText(resu);
             }else
             if (nro2==0){
