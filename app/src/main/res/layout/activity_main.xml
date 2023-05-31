@@ -60,8 +60,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="282dp"
-        android:layout_height="213dp"
+        android:layout_width="309dp"
+        android:layout_height="280dp"
         android:layout_marginTop="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,6 +94,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Dividir" />
+
+        <RadioButton
+            android:id="@+id/r5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Potencia" />
 
     </RadioGroup>
 
