@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                                 String resu=String.valueOf(potencia);
                                 tv1.setText(resu);
                             }
-
                         }
     }
 }
